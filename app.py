@@ -24,7 +24,7 @@ def init_db():
 
 @app.route("/")
 def home():
-    return render_template("form.html")
+    return render_template("index.html")
 
 @app.route("/submit", methods=["POST"])
 def submit():
